@@ -13,7 +13,7 @@ const cards = [
     {
         title : "PREMIUM",
         text : "Perfect For Business",
-        price : "199"
+        price : "200"
     }
 ]
 export default function CardList(){
