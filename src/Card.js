@@ -3,6 +3,7 @@ export default function Card({title , text , price}){
 
                 <div className="card">
                     <h2 className="titre">{title}</h2>
+                    <p>aaaa</p>
                     <p className="text2">{text}</p>
                     <h2><sup className="sup-sub">$</sup>{price}<sub className="sup-sub">/months</sub></h2>
                     <button className={title == "STANDARD" ? "button2" : "button1"}>Add to cart</button>
